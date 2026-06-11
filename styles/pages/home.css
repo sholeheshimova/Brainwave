@@ -1,1 +1,501 @@
 @import url("../global/general.css");
+
+.hero {
+  background-color: var(--bg-color);
+}
+.hero-content {
+  padding-top: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-information {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  max-width: 518px;
+  width: 100%;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 65px;
+  max-width: 350px;
+}
+
+.hero-parag {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  max-width: 368px;
+}
+
+.companies {
+  margin: 114px auto;
+  max-width: 766px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.company-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+}
+.company-parag {
+  max-width: 686px;
+  text-align: center;
+  margin: 0 auto;
+}
+.company-icons {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 766px;
+  justify-content: center;
+  gap: 60px;
+}
+
+.category {
+  background-color: var(--text-color);
+}
+
+.category-content {
+  padding-top: 132px;
+  padding-bottom: 144px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 65px;
+}
+
+.category-information {
+  max-width: 429px;
+  width: 100%;
+
+  padding-left: 90px;
+}
+.category-title {
+  font-weight: 700;
+  color: var(--light-color);
+  font-size: 36px;
+  letter-spacing: -1.2px;
+}
+.category-parag {
+  max-width: 388px;
+  font-weight: 400;
+  color: var(--light-color);
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+}
+
+.category-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.cards {
+  background-color: var(--light-color);
+  width: 350px;
+  height: 117px;
+  padding: 26px 32px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-title,
+.card-parag {
+  color: var(--text-color);
+}
+
+.cards:hover {
+  background-color: var(--card-hover-color);
+  box-shadow: 0px 34px 33px -23px #161c2d21;
+  transition: all 0.5s ease;
+}
+.cards:hover .card-title,
+.cards:hover .card-parag {
+  color: white;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 21px;
+}
+.card-parag {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+/* FIND JOB */
+.find-jobs {
+  padding-top: 170px;
+  padding-bottom: 116px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.find-job-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 75px;
+}
+.find-job-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+.find-job-parag {
+  max-width: 589px;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  margin-bottom: 96px;
+}
+
+.find-view {
+  position: relative;
+  width: 550px;
+}
+.find-img img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.opacity-card {
+  position: absolute;
+  width: 72%;
+  height: 82%;
+  background-color: var(--opacity-card-color);
+  opacity: 9.86%;
+  border-radius: 10px;
+  right: -20px;
+  bottom: -10px;
+  z-index: -1;
+}
+
+/* Notification */
+.notification-card {
+  position: absolute;
+  left: -40px;
+  bottom: 180px;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  background-color: var(--text-color);
+
+  padding: 26px 24px;
+  border-radius: 10px;
+
+  min-width: 350px;
+
+  box-shadow: 0 62px 64px -10px #0117301e;
+}
+
+.notification-icon {
+  width: 39px;
+  height: 39px;
+  border-radius: 50%;
+  background-color: var(--opacity-card-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notification-content {
+  display: flex;
+  flex-direction: column;
+}
+.notification-content span {
+  color: var(--light-color);
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.notification-content-head {
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--light-color);
+}
+
+.find-job-information {
+  max-width: 404px;
+}
+
+.find-job-information {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.find-content {
+  display: flex;
+  gap: 22px;
+}
+
+.find-circle {
+  background-color: var(--card-hover-color);
+  width: 43px;
+  min-width: 43px;
+  height: 43px;
+  min-height: 43px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.find-circle span {
+  color: var(--light-color);
+}
+
+.find-job-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.find-job-text-title {
+  font-weight: 700;
+  font-size: 21px;
+}
+.find-job-text-parag {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 29px;
+}
+
+/* FEATURED JOBS */
+
+.featured-job {
+  padding-top: 107px;
+  padding-bottom: 140px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 84px;
+}
+.featured-information {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.featured-title {
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: -1.2px;
+}
+
+.featured-parag {
+  max-width: 353px;
+
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  color: var(--text-color);
+}
+.featured-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 30px;
+}
+
+.featured-card {
+  display: flex;
+  flex-direction: column;
+  /* gap: 56px; */
+  max-width: 280px;
+  width: 100%;
+  min-height: 290px;
+  padding: 29px 32px;
+  border-radius: 10px;
+  border: 1px solid #e7e9ed;
+  box-shadow: 0px 34px 33px -23px #161c2d21;
+}
+.featured-card-text {
+  display: flex;
+  flex-direction: column;
+}
+.featured-card-logo {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.featured-card-text span {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.featured-card-title {
+  font-weight: 700;
+  color: var(--text-color);
+  font-size: 21px;
+  line-height: 32px;
+}
+.featured-card-parag {
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 15px;
+}
+
+/* NEWS */
+
+.news {
+  background-color: var(--secondary-bg-color);
+}
+
+.news-content {
+  padding: 97px 0;
+}
+.news-title {
+  text-align: center;
+  font-weight: 700;
+  color: var(--text-color);
+  font-size: 36px;
+
+  margin-bottom: 17px;
+}
+.news-parag {
+  max-width: 503px;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 74px;
+}
+.news-cards {
+  display: flex;
+  justify-content: center;
+  gap: 31px;
+}
+.news-card {
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 34px 33px -23px #161c2d21;
+}
+
+.news-card-img {
+  height: 300px;
+}
+.news-card-img img {
+  width: 100%;
+  height: 100%;
+}
+.news-card-content {
+  padding: 22px 32px;
+}
+
+.news-card-parag {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--text-color);
+  margin-bottom: 10px;
+}
+.news-card-title {
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  color: var(--text-color);
+}
+
+/* SUBSCRIBE */
+
+.subscribe {
+  padding: 120px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.subscribe-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 40px;
+}
+
+.subscribe-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+.subscribe-parag {
+  font-weight: 400;
+  max-width: 502px;
+
+  font-size: 19px;
+  line-height: 32px;
+  color: var(--text-color);
+  margin-bottom: 40px;
+}
+
+.subscribe-form {
+  max-width: 500px;
+  width: 100%;
+
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 6px;
+
+  margin-bottom: 30px;
+}
+
+.subscribe-input {
+  flex: 1;
+  border: none;
+  outline: none;
+
+  padding: 18px 20px;
+
+  font-size: 15px;
+}
+
+.subscribe-btn {
+  border: none;
+  cursor: pointer;
+
+  background-color: var(--card-hover-color);
+  color: white;
+
+  padding: 18px 32px;
+  border-radius: 8px;
+
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.subscribe-info {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: var(--text-color);
+}
