@@ -1,1 +1,225 @@
 @import url("../global/general.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.header-container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo {
+    font-family: var(--rubik-font);
+    color: var(--footer-bg-color);
+
+    font-size: 28px;
+    text-decoration: none;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+
+.header-logo:hover {
+    color: var(--btn-color);
+
+    transform: scale(1.2);
+    transition: color 0.8s ease, transform 0.5s ease;
+}
+
+/* <!-- LOGIN --> */
+
+.login-section {
+    background: var(--BG-COLOR);
+    font-family: var(--roboto-font);
+
+    width: 100%;
+    max-width: 1600px;
+    min-height: 910px;
+    margin: 0 auto;
+
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.login-title {
+    color: var(--footer-bg-color);
+    font-size: 60px;
+    font-weight: 700px;
+    margin-bottom: 15px;
+}
+
+.login-text {
+    color: var(--footer-bg-color);
+    font-size: 20px;
+    margin-bottom: 50px;
+    opacity: 0.5;
+}
+
+.login-card {
+    background: var(--footer-text-color);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 34px 33px -23px var(--border);
+}
+
+.login-card:hover {
+    transform: scale(1.05);
+    transition: color 0.8s ease, transform 0.5s ease;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-label {
+    font-family: var(--roboto-font);
+    color: var(--footer-bg-color);
+    text-align: left;
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.login-input {
+    padding: 18px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    height: 300px;
+    height: 50px;
+}
+
+.login-input:hover {
+    transform: scale(1.03);
+    border-color: var(--btn-color);
+    transition: color 0.8s ease, transform 0.5s ease;
+}
+
+.login-input:focus {
+    border-color: var(--btn-color);
+}
+
+.login-btn {
+    margin-top: 60px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: var(--btn-color);
+    color: var(--footer-text-color);
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+    height: 60px;
+}
+
+.login-btn:hover {
+    transform: scale(1.03);
+    transition: color 0.8s ease, transform 0.5s ease;
+}
+
+.login-register {
+    margin-top: 30px;
+    color: var(--footer-bg-color);
+}
+
+.login-link {
+    color: var(--btn-color);
+    text-decoration: none;
+}
+
+.login-link:hover {
+    transform: scale(1.05);
+    text-decoration: underline;
+    transition: color 0.8s ease, transform 0.5s ease;
+}
+
+/* <!-- FOOTER --> */
+
+.footer-container {
+    background-color: var(--footer-bg-color);
+    max-width: 1600px;
+    width: 100%;
+    min-height: 500px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    font-family: var(--roboto-font);
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    max-width: 300px;
+    height: 209px;
+    margin-top: 120px;
+}
+
+.column-logo-text:hover,
+.column-logo-title:hover,
+.footer-icons:hover,
+.column-text:hover,
+.col-p:hover {
+    transform: scale(1.05) translateY(-4px);
+    transition: all 0.5s ease-in-out;
+}
+
+.column-logo-title {
+    font-family: var(--rubik-font);
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.column-logo-text {
+    font-size: 16px;
+    line-height: 26px;
+    Opacity: 65%;
+}
+
+.column-text {
+    font-weight: 400px;
+    line-height: 50px;
+    font-size: 15px;
+    Opacity: 65%;
+}
+
+.col-p {
+    font-weight: 400px;
+    font-size: 17px;
+    line-height: 40px;
+    Opacity: 90%;
+}
+
+.footer-icons {
+    display: flex;
+    float: left;
+    padding: 15px;
+}

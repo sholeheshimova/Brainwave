@@ -2,6 +2,6 @@
 @import url("./font.css");
 @import url("./variable.css");
 
-body{
+body {
     font-family: var(--roboto-font);
 }
