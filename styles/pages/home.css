@@ -1,11 +1,9 @@
 @import url("../global/general.css");
 
-
-
 /* HEADER */
 .header {
   padding: 20px 0;
-  background: var(--bg);
+  background: var(--bg-color);
   position: fixed;
   width: 100%;
   top: 0;
@@ -84,7 +82,7 @@
   background-color: var(--bg-color);
 }
 .hero-content {
-  padding-top: 120px;      /* padding elave etdim.*/
+  padding-top: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,6 +109,7 @@
   max-width: 368px;
 }
 
+/* Companies */
 .companies {
   margin: 114px auto;
   max-width: 766px;
@@ -138,6 +137,9 @@
   justify-content: center;
   gap: 60px;
 }
+
+
+/* Category */
 
 .category {
   background-color: var(--text-color);
@@ -395,19 +397,17 @@
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  gap: 30px;
 }
 
 .featured-card {
   display: flex;
   flex-direction: column;
-  /* gap: 56px; */
   max-width: 280px;
   width: 100%;
   min-height: 290px;
   padding: 29px 32px;
   border-radius: 10px;
-  border: 1px solid #e7e9ed;
+  border: 1px solid var(--border-color);
   box-shadow: 0px 34px 33px -23px #161c2d21;
 }
 .featured-card-text {
@@ -581,10 +581,11 @@
 }
 
 /*\\\\\\\\\\\\\\\\\\\\\\\*/
-
+.footer{
+   background-color: var(--footer-bg-color);
+}
 .footer-container {
-  background-color: var(--footer-bg-color);
-  /* max-width: 1600px; */
+
   width: 100%;
   margin: 0 auto;
   min-height: 500px;
